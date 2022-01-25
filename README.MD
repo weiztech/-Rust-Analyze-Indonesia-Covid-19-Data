@@ -234,6 +234,7 @@ bar_plot.add_trace(top_recovered_trace);
 bar_plot.add_trace(top_death_trace);
 bar_plot.lab_display()
 ```
+![](assets/newplot%20-%20top%205%20provinces.png)
 
 ## **Analyze Data Based `Location Level: Country`**
 
@@ -314,6 +315,7 @@ scatter_plot.add_trace(new_vs_recovered_trace);
 scatter_plot.add_trace(death_vs_recovered_trace);
 scatter_plot.lab_display()
 ```
+![](assets/newplot%20-%20scatter%20plot%20new%20cases.png)
 
 #### Scatter plot Trace Data & Display `(Based: Total Cases)`
 
@@ -388,4 +390,4 @@ ttl_scatter_plot.add_trace(ttl_case_vs_ttl_recovered_trace);
 ttl_scatter_plot.add_trace(ttl_death_vs_ttl_recovered_trace);
 ttl_scatter_plot.lab_display()
 ```
-
+![](assets/newplot%20-%20scatter%20plot%20ttl%20cases.png)
