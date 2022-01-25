@@ -1,3 +1,7 @@
+# Analyze Indonesia Covid-19 Dataset using Rust
+Dataset Source:  https://www.kaggle.com/hendratno/covid19-indonesia
+
+
 ```Rust
 :dep plotly = { version = ">=0.6.0", features = ["plotly_ndarray"] }
 :dep itertools-num = "0.1.3"
@@ -231,8 +235,6 @@ bar_plot.add_trace(top_death_trace);
 bar_plot.lab_display()
 ```
 
-    ()
-
 ## **Analyze Data Based `Location Level: Country`**
 
 ```Rust
@@ -313,8 +315,6 @@ scatter_plot.add_trace(death_vs_recovered_trace);
 scatter_plot.lab_display()
 ```
 
-    ()
-
 #### Scatter plot Trace Data & Display `(Based: Total Cases)`
 
 ```Rust
@@ -389,8 +389,3 @@ ttl_scatter_plot.add_trace(ttl_death_vs_ttl_recovered_trace);
 ttl_scatter_plot.lab_display()
 ```
 
-    ()
-
-```Rust
-
-```
